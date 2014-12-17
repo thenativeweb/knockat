@@ -33,13 +33,12 @@ If the host is reachable, knockat returns with exit code `0`, otherwise with exi
 First you need to add a reference to knockat in your application.
 
 ```javascript
-var Knock = require('knockat');
+var knock = require('knockat');
 ```
 
-Then, create an instance, call its `at` function and provide the host as well as the port you want to knock at.
+Then, call its `at` function and provide the host as well as the port you want to knock at.
 
 ```javascript
-var knock = new Knock();
 knock.at('localhost', 3000, function (err) {
   // ...
 });
