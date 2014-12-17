@@ -2,9 +2,7 @@
 
 'use strict';
 
-var Knock = require('../lib/Knock');
-
-var knock = new Knock();
+var knock = require('../lib/knock');
 
 var host = process.argv[2],
     port = process.argv[3] - 0;
