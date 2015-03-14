@@ -26,5 +26,9 @@
     "type": "git",
     "url": "git://github.com/thenativeweb/knockat.git"
   },
+  "keywords": [
+    "monitor",
+    "network"
+  ],
   "license": "MIT"
 }
