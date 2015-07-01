@@ -18,9 +18,9 @@
     "retry": "0.6.1"
   },
   "devDependencies": {
-    "assertthat": "0.5.3",
+    "assertthat": "0.6.0",
     "grunt": "0.4.5",
-    "tourism": "0.15.0"
+    "tourism": "0.20.0"
   },
   "repository": {
     "type": "git",
