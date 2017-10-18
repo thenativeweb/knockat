@@ -4,7 +4,7 @@ var http = require('http');
 
 var assert = require('assertthat');
 
-var knock = require('../lib/knock');
+var knock = require('../../lib/knock');
 
 suite('knock', function () {
   test('is an object.', function (done) {
