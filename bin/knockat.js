@@ -2,12 +2,12 @@
 
 'use strict';
 
-var knock = require('../lib/knock');
+const knock = require('../lib/knock');
 
-var host = process.argv[2],
-    port = process.argv[3] - 0;
+const host = process.argv[2],
+      port = process.argv[3] - 0;
 
-knock.at(host, port, function (err) {
+knock.at(host, port, err => {
   if (err) {
     /* eslint-disable no-process-exit */
     return process.exit(1);

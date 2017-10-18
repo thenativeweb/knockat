@@ -38,6 +38,10 @@ var knock = require('knockat');
 
 Then, call its `at` function and provide the host as well as the port you want to knock at.
 
+#### Callback syntax
+
+`at` can be called with a callback.
+
 ```javascript
 knock.at('localhost', 3000, function (err) {
   // ...
@@ -45,6 +49,21 @@ knock.at('localhost', 3000, function (err) {
 ```
 
 If the host is reachable, the callback gets called with `null`, otherwise with an error.
+
+#### Promise syntax
+
+`at` can be called as a promise.
+
+```javascript
+knock.at('localhost', 3000)
+  .then(() => {
+    // ...
+  })
+  .catch(err => {
+  });
+```
+
+If the host is reachable, the promise resolved, otherwise it rejects.
 
 #### Changing the number of retries
 
