@@ -6,8 +6,7 @@ roboter.
   workOn('server').
   equipWith(task => {
     task('universal/analyze', {
-      src: [ '**/*.js', '!coverage/**/*.js', '!dist/**/*.js', '!node_modules/**/*.js' ],
-      rules: '.eslintrc.json'
+      src: [ '**/*.js', '!coverage/**/*.js', '!dist/**/*.js', '!node_modules/**/*.js' ]
     });
   }).
   start();
