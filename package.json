@@ -20,10 +20,8 @@
   "devDependencies": {
     "assertthat": "0.11.0",
     "eslint-config-es": "0.8.12",
-    "grunt": "1.0.1",
     "roboter": "0.15.4",
-    "roboter-server": "0.15.4",
-    "tourism": "0.21.0"
+    "roboter-server": "0.15.4"
   },
   "repository": {
     "type": "git",
