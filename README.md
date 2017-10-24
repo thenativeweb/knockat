@@ -38,32 +38,15 @@ var knock = require('knockat');
 
 Then, call its `at` function and provide the host as well as the port you want to knock at.
 
-#### Callback syntax
-
-`at` can be called with a callback.
-
-```javascript
-knock.at('localhost', 3000, function (err) {
-  // ...
-});
-```
-
-If the host is reachable, the callback gets called with `null`, otherwise with an error.
-
 #### Promise syntax
 
-`at` can be called as a promise.
+`at` can be called as a promise to wait for the server to respond.
 
 ```javascript
-knock.at('localhost', 3000)
-  .then(() => {
-    // ...
-  })
-  .catch(err => {
-  });
+await knock.at('localhost', 3000);
 ```
 
-If the host is reachable, the promise resolved, otherwise it rejects.
+If the host is reachable, the promise resolves, otherwise it rejects.
 
 #### Changing the number of retries
 
@@ -78,9 +61,7 @@ knock.retries = 100;
 If you only want to set this value for a specific request, provide an options object with a `retries` property.
 
 ```javascript
-knock.at('localhost', 3000, { retries: 100 }, function (err) {
-  // ...
-});
+await knock.at('localhost', 3000, { retries: 100 });
 ```
 
 ## Running the build
@@ -91,6 +72,12 @@ To build this module use [roboter](https://www.npmjs.com/package/roboter).
 ```bash
 $ bot
 ```
+
+## Breaking change
+
+### 0.3.0
+
+- The `knock.at()` API has changes from callback to promise, so you have to wait for the promise to resolve.
 
 ## License
 
