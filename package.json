@@ -15,12 +15,13 @@
   "bin": "bin/knockat.js",
   "main": "lib/knock.js",
   "dependencies": {
-    "retry": "0.6.1"
+    "retry": "0.10.1"
   },
   "devDependencies": {
-    "assertthat": "0.6.0",
-    "grunt": "0.4.5",
-    "tourism": "0.20.0"
+    "assertthat": "0.11.0",
+    "eslint-config-es": "0.8.12",
+    "roboter": "0.15.4",
+    "roboter-server": "0.15.4"
   },
   "repository": {
     "type": "git",
