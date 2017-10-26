@@ -22,7 +22,7 @@ suite('knock', () => {
 
     suite('promise', () => {
       test('returns an error if host is not reachable.', async () => {
-        assert.that(async () => {
+        await assert.that(async () => {
           await knock.at('localhost', 3000, { retries: 1 });
         }).is.throwingAsync();
       });
