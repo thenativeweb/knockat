@@ -44,10 +44,6 @@ const knock = require('knockat');
 
 Then, call its `at` function and provide the host as well as the port you want to knock at.
 
-#### Promise syntax
-
-`at` can be called as a promise to wait for the server to respond.
-
 ```javascript
 await knock.at('localhost', 3000);
 ```
