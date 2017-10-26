@@ -6,15 +6,19 @@ knockat waits until a host is reachable.
 
 ### As CLI
 
-    $ npm install -g knockat
+```shell
+$ npm install -g knockat
+```
 
 ### In Node.js
 
-    $ npm install knockat
+```shell
+$ npm install knockat
+```
 
 ## Quick start
 
-When you run knockat (either as CLI or using Node.js), it uses the following algorithm to detect whether the given is host is reachable.
+When you run knockat (either as CLI or using Node.js), it uses the following algorithm to detect whether the given host is reachable.
 
 - If the host is reachable, the module returns immediately.
 - If the host is not reachable, knockat retries to reach the host every two seconds.
@@ -24,7 +28,9 @@ When you run knockat (either as CLI or using Node.js), it uses the following alg
 
 Run `knockat` and provide the host as well as the port you want to knock at as parameters.
 
-    $ knockat localhost 3000
+```shell
+$ knockat localhost 3000
+```
 
 If the host is reachable, knockat returns with exit code `0`, otherwise with exit code `1`.
 
@@ -33,7 +39,7 @@ If the host is reachable, knockat returns with exit code `0`, otherwise with exi
 First you need to add a reference to knockat in your application.
 
 ```javascript
-var knock = require('knockat');
+const knock = require('knockat');
 ```
 
 Then, call its `at` function and provide the host as well as the port you want to knock at.
@@ -46,7 +52,7 @@ Then, call its `at` function and provide the host as well as the port you want t
 await knock.at('localhost', 3000);
 ```
 
-If the host is reachable, the promise resolves, otherwise it rejects.
+Once the host is reachable, the `at` function returns. If the host is not reachable permanently, it throws an exception.
 
 #### Changing the number of retries
 
@@ -66,23 +72,16 @@ await knock.at('localhost', 3000, { retries: 100 });
 
 ## Running the build
 
-
 To build this module use [roboter](https://www.npmjs.com/package/roboter).
 
-```bash
+```shell
 $ bot
 ```
-
-## Breaking change
-
-### 0.3.0
-
-- The `knock.at()` API has changes from callback to promise, so you have to wait for the promise to resolve.
 
 ## License
 
 The MIT License (MIT)
-Copyright (c) 2014-2015 the native web.
+Copyright (c) 2014-2017 the native web.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
