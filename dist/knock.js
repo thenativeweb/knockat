@@ -1,5 +1,7 @@
 'use strict';
 
+require('babel-polyfill');
+
 var net = require('net');
 
 var retry = require('retry');
