@@ -19,6 +19,7 @@
   "bin": "dist/bin/knockat.js",
   "main": "dist/knock.js",
   "dependencies": {
+    "babel-polyfill": "6.26.0",
     "retry": "0.10.1"
   },
   "devDependencies": {
