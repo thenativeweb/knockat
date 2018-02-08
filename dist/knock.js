@@ -27,23 +27,34 @@ knock.at = function (host, port, options) {
 
       client.setTimeout(2 * 1000);
 
-      client.once('error', function (err) {
+      var onConnect = void 0,
+          onError = void 0;
+
+      var unsubscribe = function unsubscribe() {
         client.end();
         client.destroy();
-        client.removeAllListeners();
+
+        client.removeListener('connect', onConnect);
+        client.removeListener('error', onError);
+      };
+
+      onConnect = function onConnect() {
+        unsubscribe();
+        resolve(null);
+      };
+
+      onError = function onError(err) {
+        unsubscribe();
+
         if (operation.retry(err)) {
           return;
         }
 
         reject(err ? operation.mainError() : null);
-      });
+      };
 
-      client.once('connect', function () {
-        client.end();
-        client.destroy();
-        client.removeAllListeners();
-        resolve(null);
-      });
+      client.on('connect', onConnect);
+      client.on('error', onError);
     });
   });
 };
