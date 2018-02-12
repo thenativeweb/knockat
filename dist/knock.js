@@ -1,6 +1,10 @@
 'use strict';
 
-require('babel-polyfill');
+var _promise = require('babel-runtime/core-js/promise');
+
+var _promise2 = _interopRequireDefault(_promise);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var net = require('net');
 
@@ -14,7 +18,7 @@ knock.at = function (host, port, options) {
   options = options || {};
   options.retries = options.retries || knock.retries;
 
-  return new Promise(function (resolve, reject) {
+  return new _promise2.default(function (resolve, reject) {
     var operation = retry.operation({
       retries: options.retries,
       factor: 1,
