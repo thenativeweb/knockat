@@ -4,7 +4,7 @@ const http = require('http');
 
 const assert = require('assertthat');
 
-const knock = require('../../lib/knock');
+const knock = require('../../src/knock');
 
 suite('knock', () => {
   test('is an object.', done => {

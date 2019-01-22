@@ -23,13 +23,12 @@
   "bin": "dist/bin/knockat.js",
   "main": "dist/knock.js",
   "dependencies": {
-    "babel-runtime": "6.26.0",
-    "retry": "0.10.1"
+    "@babel/runtime": "7.3.1",
+    "retry": "0.12.0"
   },
   "devDependencies": {
-    "assertthat": "1.0.0",
-    "roboter": "0.16.0",
-    "roboter-server": "0.16.0"
+    "assertthat": "2.0.1",
+    "roboter": "3.0.4"
   },
   "repository": {
     "type": "git",
