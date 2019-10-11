@@ -2,6 +2,16 @@
 
 knockat waits until a host is reachable.
 
+## Status
+
+| Category         | Status                                                                                                                                     |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Version          | [![npm](https://img.shields.io/npm/v/knockat)](https://www.npmjs.com/package/knockat)                                                      |
+| Dependencies     | ![David](https://img.shields.io/david/thenativeweb/knockat)                                                                                |
+| Dev dependencies | ![David](https://img.shields.io/david/dev/thenativeweb/knockat)                                                                            |
+| Build            | [![CircleCI](https://img.shields.io/circleci/build/github/thenativeweb/knockat)](https://circleci.com/gh/thenativeweb/knockat/tree/master) |
+| License          | ![GitHub](https://img.shields.io/github/license/thenativeweb/knockat)                                                                      |
+
 ## Installation
 
 ### As CLI
@@ -39,7 +49,13 @@ If the host is reachable, knockat returns with exit code `0`, otherwise with exi
 First you need to add a reference to knockat in your application.
 
 ```javascript
-const knock = require('knockat');
+const knock = require('knockat').default;
+```
+
+If you use TypeScript, use the following code instead:
+
+```typescript
+import knock from 'knockat';
 ```
 
 Then, call its `at` function and provide the host as well as the port you want to knock at.
@@ -71,16 +87,5 @@ await knock.at('localhost', 3000, { retries: 100 });
 To build this module use [roboter](https://www.npmjs.com/package/roboter).
 
 ```shell
-$ bot
+$ npx roboter
 ```
-
-## License
-
-The MIT License (MIT)
-Copyright (c) 2014-2018 the native web.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
