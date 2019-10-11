@@ -30,9 +30,9 @@ $ npm install knockat
 
 When you run knockat (either as CLI or using Node.js), it uses the following algorithm to detect whether the given host is reachable.
 
-- If the host is reachable, the module returns immediately.
-- If the host is not reachable, knockat retries to reach the host every two seconds.
-- If the host is not reachable within 60 retries, knockat fails.
+-   If the host is reachable, the module returns immediately.
+-   If the host is not reachable, knockat retries to reach the host every two seconds.
+-   If the host is not reachable within 60 retries, knockat fails.
 
 ### As CLI
 
