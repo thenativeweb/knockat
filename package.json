@@ -34,7 +34,7 @@
     "@types/node": "12.11.7",
     "@types/retry": "0.12.0",
     "assertthat": "4.0.2",
-    "roboter": "9.0.5"
+    "roboter": "9.0.6"
   },
   "repository": {
     "type": "git",
