@@ -1,6 +1,6 @@
-import assert from 'assertthat';
+import { assert } from 'assertthat';
 import http from 'http';
-import knock from '../../lib/knock';
+import { knock } from '../../lib/knock';
 
 suite('knock', (): void => {
   test('is an object.', async (): Promise<void> => {

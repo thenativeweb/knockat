@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import knock from '../knock';
+import { knock } from '../knock';
 
 const host = process.argv[2],
       port = Number(process.argv[3]);

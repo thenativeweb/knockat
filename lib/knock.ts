@@ -58,4 +58,4 @@ const knock = {
   }
 };
 
-export default knock;
+export { knock };
