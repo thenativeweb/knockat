@@ -33,7 +33,7 @@
   "devDependencies": {
     "@types/node": "12.12.14",
     "@types/retry": "0.12.0",
-    "assertthat": "5.0.2",
+    "assertthat": "5.1.0",
     "roboter": "9.2.6"
   },
   "repository": {
