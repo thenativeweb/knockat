@@ -24,17 +24,16 @@
       "email": "hannes.leutloff@thenativeweb.io"
     }
   ],
-  "bin": "build/lib/bin/knockat.js",
   "main": "build/lib/knock.js",
   "types": "build/lib/knock.d.ts",
   "dependencies": {
-    "retry": "0.12.0"
+    "async-retry": "1.2.3"
   },
   "devDependencies": {
+    "@types/async-retry": "1.4.1",
     "@types/node": "12.12.14",
-    "@types/retry": "0.12.0",
     "assertthat": "5.1.0",
-    "roboter": "10.0.0",
+    "roboter": "10.0.1",
     "semantic-release-configuration": "1.0.6"
   },
   "repository": {
