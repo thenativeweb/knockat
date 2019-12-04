@@ -24,7 +24,6 @@
       "email": "hannes.leutloff@thenativeweb.io"
     }
   ],
-  "bin": "build/lib/bin/knockat.js",
   "main": "build/lib/knock.js",
   "types": "build/lib/knock.d.ts",
   "dependencies": {
