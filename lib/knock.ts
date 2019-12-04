@@ -9,7 +9,7 @@ const knock = {
   retries: 60,
   async at (host: string, port: number, options: KnockOptions = {}): Promise<void> {
     const optionsWithDefaults = {
-      retries: options.retries || this.retries
+      retries: options.retries ?? this.retries
     };
 
     return new Promise((resolve, reject): void => {
