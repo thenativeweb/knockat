@@ -1,5 +1,5 @@
 import net from 'net';
-import retry from 'async-retry';
+import { retry } from 'retry-ignore-abort';
 
 export interface KnockOptions {
   retries?: number;
