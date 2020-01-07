@@ -1,3 +1,10 @@
+## [4.0.2](https://github.com/thenativeweb/knockat/compare/4.0.1...4.0.2) (2020-01-07)
+
+
+### Bug Fixes
+
+* Replace async-retry. ([#78](https://github.com/thenativeweb/knockat/issues/78)) ([4a0f580](https://github.com/thenativeweb/knockat/commit/4a0f58080af25aab8bd1f07b9d5ec2e139dd59df))
+
 ## [4.0.1](https://github.com/thenativeweb/knockat/compare/4.0.0...4.0.1) (2020-01-02)
 
 
