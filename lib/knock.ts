@@ -1,5 +1,5 @@
 import net from 'net';
-import retry from 'async-retry';
+import { retry } from 'retry-ignore-abort';
 
 export interface KnockOptions {
   retries?: number;
@@ -12,8 +12,8 @@ const knock = {
       retries: options.retries ?? this.retries
     };
 
-    await retry(async (): Promise<void> =>
-      new Promise((resolve, reject): void => {
+    await retry(
+      async (): Promise<void> => new Promise((resolve, reject): void => {
         const client = net.connect(port, host);
 
         client.setTimeout(2 * 1000);
@@ -42,12 +42,13 @@ const knock = {
         client.on('connect', onConnect);
         client.on('error', onError);
       }),
-    {
-      retries: optionsWithDefaults.retries,
-      factor: 1,
-      minTimeout: 2 * 1000,
-      maxTimeout: 2 * 1000
-    });
+      {
+        retries: optionsWithDefaults.retries,
+        factor: 1,
+        minTimeout: 2 * 1000,
+        maxTimeout: 2 * 1000
+      }
+    );
   }
 };
 
