@@ -1,6 +1,6 @@
 {
   "name": "knockat",
-  "version": "4.0.26",
+  "version": "4.0.27",
   "description": "knockat waits until a host is reachable.",
   "contributors": [
     {
