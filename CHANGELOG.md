@@ -1,3 +1,10 @@
+## [4.0.33](https://github.com/thenativeweb/knockat/compare/4.0.32...4.0.33) (2020-11-03)
+
+
+### Bug Fixes
+
+* Fix headline for robot section in readme. ([#284](https://github.com/thenativeweb/knockat/issues/284)) ([98d9c1c](https://github.com/thenativeweb/knockat/commit/98d9c1c5219f7d1dc1d48eb4cef3daa9574d3304))
+
 ## [4.0.32](https://github.com/thenativeweb/knockat/compare/4.0.31...4.0.32) (2020-10-30)
 
 
