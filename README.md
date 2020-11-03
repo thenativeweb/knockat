@@ -64,9 +64,9 @@ When you run knockat, it uses the following algorithm to detect whether the give
 -   If the host is not reachable, knockat retries to reach the host every two seconds.
 -   If the host is not reachable within 60 retries, knockat fails.
 
-## Running the build
+## Running quality assurance
 
-To build this module use [roboter](https://www.npmjs.com/package/roboter).
+To run quality assurance for this module use [roboter](https://www.npmjs.com/package/roboter):
 
 ```shell
 $ npx roboter
