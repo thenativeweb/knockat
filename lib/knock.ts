@@ -16,7 +16,7 @@ const knock = {
       async (): Promise<void> => new Promise((resolve, reject): void => {
         const client = net.connect(port, host);
 
-        client.setTimeout(2 * 1000);
+        client.setTimeout(2_000);
 
         let onConnect: () => void,
             onError: (err: Error) => void;
@@ -45,8 +45,8 @@ const knock = {
       {
         retries: optionsWithDefaults.retries,
         factor: 1,
-        minTimeout: 2 * 1000,
-        maxTimeout: 2 * 1000
+        minTimeout: 2_000,
+        maxTimeout: 2_000
       }
     );
   }
