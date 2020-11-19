@@ -27,7 +27,7 @@
   "main": "build/lib/knock.js",
   "types": "build/lib/knock.d.ts",
   "dependencies": {
-    "@types/node": "14.14.8",
+    "@types/node": "14.14.9",
     "retry-ignore-abort": "2.2.8"
   },
   "devDependencies": {
