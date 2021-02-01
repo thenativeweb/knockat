@@ -1,3 +1,10 @@
+## [4.0.51](https://github.com/thenativeweb/knockat/compare/4.0.50...4.0.51) (2021-02-01)
+
+
+### Bug Fixes
+
+* bump retry-ignore-abort from 2.2.11 to 2.2.12 ([#354](https://github.com/thenativeweb/knockat/issues/354)) ([3b6c27c](https://github.com/thenativeweb/knockat/commit/3b6c27cde8bde2de9245e438a6bd50f30b0813c2))
+
 ## [4.0.50](https://github.com/thenativeweb/knockat/compare/4.0.49...4.0.50) (2021-01-27)
 
 
