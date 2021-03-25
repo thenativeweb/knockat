@@ -1,3 +1,10 @@
+## [4.0.63](https://github.com/thenativeweb/knockat/compare/4.0.62...4.0.63) (2021-03-25)
+
+
+### Bug Fixes
+
+* Migrate from master to main. ([#402](https://github.com/thenativeweb/knockat/issues/402)) ([6840e45](https://github.com/thenativeweb/knockat/commit/6840e45d92c387053afba7e4780389b860db4b4a))
+
 ## [4.0.62](https://github.com/thenativeweb/knockat/compare/4.0.61...4.0.62) (2021-03-25)
 
 
