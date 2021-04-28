@@ -1,3 +1,10 @@
+## [4.0.69](https://github.com/thenativeweb/knockat/compare/4.0.68...4.0.69) (2021-04-28)
+
+
+### Bug Fixes
+
+* bump @types/node from 14.14.41 to 15.0.0 ([#419](https://github.com/thenativeweb/knockat/issues/419)) ([a77f015](https://github.com/thenativeweb/knockat/commit/a77f015415d27c748e825126a1ab3e95c7ac45f0))
+
 ## [4.0.68](https://github.com/thenativeweb/knockat/compare/4.0.67...4.0.68) (2021-04-23)
 
 
