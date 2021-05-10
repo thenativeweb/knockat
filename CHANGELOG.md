@@ -1,3 +1,10 @@
+## [4.0.71](https://github.com/thenativeweb/knockat/compare/4.0.70...4.0.71) (2021-05-10)
+
+
+### Bug Fixes
+
+* bump hosted-git-info from 2.8.8 to 2.8.9 ([#426](https://github.com/thenativeweb/knockat/issues/426)) ([5ed8ca6](https://github.com/thenativeweb/knockat/commit/5ed8ca6812578fa7936923fe333baa7831820880))
+
 ## [4.0.70](https://github.com/thenativeweb/knockat/compare/4.0.69...4.0.70) (2021-05-06)
 
 
