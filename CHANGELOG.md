@@ -1,3 +1,10 @@
+## [4.0.81](https://github.com/thenativeweb/knockat/compare/4.0.80...4.0.81) (2021-06-08)
+
+
+### Bug Fixes
+
+* bump glob-parent from 5.1.1 to 5.1.2 ([#446](https://github.com/thenativeweb/knockat/issues/446)) ([058d315](https://github.com/thenativeweb/knockat/commit/058d315d25e546ed685ef533332e60617aa60ba7))
+
 ## [4.0.80](https://github.com/thenativeweb/knockat/compare/4.0.79...4.0.80) (2021-06-08)
 
 
