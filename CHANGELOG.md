@@ -1,3 +1,10 @@
+## [4.0.80](https://github.com/thenativeweb/knockat/compare/4.0.79...4.0.80) (2021-06-08)
+
+
+### Bug Fixes
+
+* bump trim-newlines from 3.0.0 to 3.0.1 ([#447](https://github.com/thenativeweb/knockat/issues/447)) ([b7ee863](https://github.com/thenativeweb/knockat/commit/b7ee86317ec6a6533ee0d58ba11da6e76b2fd7a1))
+
 ## [4.0.79](https://github.com/thenativeweb/knockat/compare/4.0.78...4.0.79) (2021-06-07)
 
 
