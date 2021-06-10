@@ -1,3 +1,10 @@
+## [4.0.82](https://github.com/thenativeweb/knockat/compare/4.0.81...4.0.82) (2021-06-10)
+
+
+### Bug Fixes
+
+* bump normalize-url from 6.0.0 to 6.0.1 ([#448](https://github.com/thenativeweb/knockat/issues/448)) ([472ad50](https://github.com/thenativeweb/knockat/commit/472ad503a72e7deb9cf8ed06916dc1ac5d6968c7))
+
 ## [4.0.81](https://github.com/thenativeweb/knockat/compare/4.0.80...4.0.81) (2021-06-08)
 
 
