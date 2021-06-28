@@ -1,6 +1,6 @@
 {
   "name": "knockat",
-  "version": "4.0.82",
+  "version": "4.0.84",
   "description": "knockat waits until a host is reachable.",
   "contributors": [
     {
@@ -27,8 +27,8 @@
   "main": "build/lib/knock.js",
   "types": "build/lib/knock.d.ts",
   "dependencies": {
-    "@types/node": "15.12.1",
-    "retry-ignore-abort": "2.2.19"
+    "@types/node": "15.12.5",
+    "retry-ignore-abort": "2.2.22"
   },
   "devDependencies": {
     "assertthat": "6.3.1",

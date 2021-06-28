@@ -1,3 +1,17 @@
+## [4.0.84](https://github.com/thenativeweb/knockat/compare/4.0.83...4.0.84) (2021-06-28)
+
+
+### Bug Fixes
+
+* bump @types/node from 15.12.1 to 15.12.5 ([#456](https://github.com/thenativeweb/knockat/issues/456)) ([8999058](https://github.com/thenativeweb/knockat/commit/899905879750c739476c09d761842ed128c8ccea))
+
+## [4.0.83](https://github.com/thenativeweb/knockat/compare/4.0.82...4.0.83) (2021-06-22)
+
+
+### Bug Fixes
+
+* bump retry-ignore-abort from 2.2.19 to 2.2.22 ([#449](https://github.com/thenativeweb/knockat/issues/449)) ([d81b1a1](https://github.com/thenativeweb/knockat/commit/d81b1a116c797867abe735c4f52959d17f0b6424))
+
 ## [4.0.82](https://github.com/thenativeweb/knockat/compare/4.0.81...4.0.82) (2021-06-10)
 
 
