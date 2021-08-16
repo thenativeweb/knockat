@@ -1,3 +1,10 @@
+## [4.0.96](https://github.com/thenativeweb/knockat/compare/4.0.95...4.0.96) (2021-08-16)
+
+
+### Bug Fixes
+
+* bump path-parse from 1.0.6 to 1.0.7 ([#476](https://github.com/thenativeweb/knockat/issues/476)) ([d8e594d](https://github.com/thenativeweb/knockat/commit/d8e594d92684452bbc64fdcd135871c79351911f))
+
 ## [4.0.95](https://github.com/thenativeweb/knockat/compare/4.0.94...4.0.95) (2021-08-16)
 
 
