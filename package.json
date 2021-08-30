@@ -29,7 +29,7 @@
   "types": "build/lib/knock.d.ts",
   "dependencies": {
     "@types/node": "16.7.1",
-    "retry-ignore-abort": "2.2.26"
+    "retry-ignore-abort": "2.2.27"
   },
   "devDependencies": {
     "assertthat": "6.3.13",
