@@ -1,3 +1,10 @@
+## [4.0.97](https://github.com/thenativeweb/knockat/compare/4.0.96...4.0.97) (2021-12-13)
+
+
+### Bug Fixes
+
+* bump @types/node from 16.11.11 to 16.11.12 ([#500](https://github.com/thenativeweb/knockat/issues/500)) ([84c5e71](https://github.com/thenativeweb/knockat/commit/84c5e716fa5fb0b8ad8aab35f5a338e32ca97219))
+
 ## [4.0.96](https://github.com/thenativeweb/knockat/compare/4.0.95...4.0.96) (2021-08-16)
 
 
