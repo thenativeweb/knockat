@@ -1,3 +1,10 @@
+## [4.0.101](https://github.com/thenativeweb/knockat/compare/4.0.100...4.0.101) (2022-08-22)
+
+
+### Bug Fixes
+
+* bump @types/node from 18.6.4 to 18.7.9 ([#543](https://github.com/thenativeweb/knockat/issues/543)) ([86ca26b](https://github.com/thenativeweb/knockat/commit/86ca26b038311770bec89faed262fd94022f603c))
+
 ## [4.0.100](https://github.com/thenativeweb/knockat/compare/4.0.99...4.0.100) (2022-02-07)
 
 
